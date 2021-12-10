@@ -84,4 +84,14 @@ public class PieChartExample extends JFrame {
 
         return dataset;
     }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            PieChartExample example = new PieChartExample("Pie Chart");
+            example.setSize(800, 400);
+            example.setLocationRelativeTo(null);
+            example.setVisible(true);
+            example.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        });
+    }
 }
