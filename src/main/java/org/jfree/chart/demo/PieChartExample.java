@@ -18,8 +18,8 @@ public class PieChartExample extends JFrame {
     private static final long serialVersionUID = 1L;
 
     /**
-     *
-     * @param title
+     * Creates a Pie Chart based on a title and a dataset
+     * @param title the title of the PieChart to be displayed
      */
     public PieChartExample(String title) {
         // Add title
