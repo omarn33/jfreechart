@@ -53,7 +53,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class TaskSeriesCollectionTest {
 
     /**
-     * Creates a sample collection for testing purposes.
+     * Creates a sample collection for additions purposes.
      *
      * @return A sample collection.
      */
@@ -70,7 +70,7 @@ public class TaskSeriesCollectionTest {
     }
 
     /**
-     * Creates a sample collection for testing purposes.
+     * Creates a sample collection for additions purposes.
      *
      * @return A sample collection.
      */
@@ -99,7 +99,7 @@ public class TaskSeriesCollectionTest {
     }
 
     /**
-     * Creates a sample collection for testing purposes.
+     * Creates a sample collection for additions purposes.
      *
      * @return A sample collection.
      */

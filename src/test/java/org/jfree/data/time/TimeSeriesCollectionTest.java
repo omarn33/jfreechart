@@ -228,7 +228,7 @@ public class TimeSeriesCollectionTest {
     }
 
     /**
-     * Creates a time series for testing.
+     * Creates a time series for additions.
      *
      * @return A time series.
      */

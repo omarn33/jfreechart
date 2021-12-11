@@ -1,0 +1,27 @@
+/**
+* This file contains elements of the project I did not get to but would like to briefly address
+*/
+
+
+/**
+* Draws a PieChart based on the given parameters
+* @param dataset: the dataset to be used to graph the chart
+*/
+public void drawPieChart(Dataset data) {
+    // Solving the text label overlap issues
+
+    // Iterate through all the categories to determine where the text label should be drawn
+    for(int i = 0; i < data.length; i++)
+    {
+            if(data.category < 0.05) {
+                // if the wedge is less than 5%, draw the label outside the Pie Chart
+                drawLabels(true);
+            }
+            else {
+                // Draw the label inside the chart
+                drawLabel(false);
+            }
+    }
+
+    // Plot the PieChart
+}

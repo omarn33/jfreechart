@@ -377,7 +377,7 @@ public class DefaultDrawingSupplier implements DrawingSupplier, Cloneable,
     }
 
     /**
-     * A utility method for testing the equality of two arrays of shapes.
+     * A utility method for additions the equality of two arrays of shapes.
      *
      * @param s1  the first array ({@code null} permitted).
      * @param s2  the second array ({@code null} permitted).

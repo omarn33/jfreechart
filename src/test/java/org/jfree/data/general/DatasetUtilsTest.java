@@ -975,7 +975,7 @@ public class DatasetUtilsTest {
     }
 
     /**
-     * Creates a dataset for testing.
+     * Creates a dataset for additions.
      *
      * @return A dataset.
      */
@@ -992,7 +992,7 @@ public class DatasetUtilsTest {
     }
 
     /**
-     * Creates a dataset for testing.
+     * Creates a dataset for additions.
      *
      * @return A dataset.
      */
@@ -1008,7 +1008,7 @@ public class DatasetUtilsTest {
 
 
     /**
-     * Creates a dataset for testing.
+     * Creates a dataset for additions.
      *
      * @return A dataset.
      */
@@ -1029,7 +1029,7 @@ public class DatasetUtilsTest {
     }
 
     /**
-     * Creates a sample dataset for testing purposes.
+     * Creates a sample dataset for additions purposes.
      *
      * @return A sample dataset.
      */

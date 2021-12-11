@@ -44,7 +44,7 @@ import org.jfree.chart.event.PlotChangeEvent;
 import org.jfree.chart.event.PlotChangeListener;
 
 /**
- * A utility class for testing plot events.
+ * A utility class for additions plot events.
  */
 public class MyPlotChangeListener implements PlotChangeListener {
 

@@ -212,7 +212,7 @@ public class TableXYDatasetTest {
     }
 
     /**
-     * Creates a series for testing.
+     * Creates a series for additions.
      *
      * @return A series.
      */
@@ -224,7 +224,7 @@ public class TableXYDatasetTest {
     }
 
     /**
-     * Creates a series for testing.
+     * Creates a series for additions.
      *
      * @return A series.
      */
@@ -236,7 +236,7 @@ public class TableXYDatasetTest {
     }
 
     /**
-     * Creates a series for testing.
+     * Creates a series for additions.
      *
      * @return A series.
      */
@@ -250,7 +250,7 @@ public class TableXYDatasetTest {
     }
 
     /**
-     * Creates a series for testing.
+     * Creates a series for additions.
      *
      * @return A series.
      */

@@ -1161,7 +1161,7 @@ public class MeterPlot extends Plot implements Serializable, Cloneable {
 
     /**
      * Tests the plot for equality with an arbitrary object.  Note that the
-     * dataset is ignored for the purposes of testing equality.
+     * dataset is ignored for the purposes of additions equality.
      *
      * @param obj  the object ({@code null} permitted).
      *

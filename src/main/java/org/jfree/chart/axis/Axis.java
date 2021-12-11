@@ -1131,7 +1131,7 @@ public abstract class Axis implements ChartElement, Cloneable, Serializable {
     /**
      * Returns {@code true} if the specified object is registered with
      * the dataset as a listener.  Most applications won't need to call this
-     * method, it exists mainly for use by unit testing code.
+     * method, it exists mainly for use by unit additions code.
      *
      * @param listener  the listener.
      *

@@ -55,7 +55,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 /**
- * Some utility methods for use by the testing code.
+ * Some utility methods for use by the additions code.
  */
 public class TestUtils {
 

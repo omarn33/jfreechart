@@ -41,7 +41,7 @@ import org.jfree.data.xy.IntervalXYZDataset;
 
 /**
  * An implementation of the {@link IntervalXYZDataset} interface that can be
- * used for testing.
+ * used for additions.
  */
 public class TestIntervalXYZDataset implements IntervalXYZDataset<Integer> {
     

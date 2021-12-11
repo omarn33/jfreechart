@@ -204,7 +204,7 @@ public class DefaultXYZDatasetTest {
     }
 
     /**
-     * Creates a sample dataset for testing.
+     * Creates a sample dataset for additions.
      *
      * @return A sample dataset.
      */

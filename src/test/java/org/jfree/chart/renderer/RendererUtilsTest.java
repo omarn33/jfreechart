@@ -102,7 +102,7 @@ public class RendererUtilsTest {
         DefaultXYDataset<String> d = new DefaultXYDataset<String>() {
             @Override
             public DomainOrder getDomainOrder() {
-                // we're doing this for testing only, and make sure that we
+                // we're doing this for additions only, and make sure that we
                 // only add data in ascending order by x-value
                 return DomainOrder.ASCENDING;
             }
@@ -158,7 +158,7 @@ public class RendererUtilsTest {
         DefaultXYDataset<String> d = new DefaultXYDataset<String>() {
             @Override
             public DomainOrder getDomainOrder() {
-                // we're doing this for testing only, and make sure that we
+                // we're doing this for additions only, and make sure that we
                 // only add data in descending order by x-value
                 return DomainOrder.DESCENDING;
             }
@@ -256,7 +256,7 @@ public class RendererUtilsTest {
         DefaultXYDataset<String> d = new DefaultXYDataset<String>() {
             @Override
             public DomainOrder getDomainOrder() {
-                // we're doing this for testing only, and make sure that we
+                // we're doing this for additions only, and make sure that we
                 // only add data in ascending order by x-value
                 return DomainOrder.ASCENDING;
             }
@@ -312,7 +312,7 @@ public class RendererUtilsTest {
         DefaultXYDataset<String> d = new DefaultXYDataset<String>() {
             @Override
             public DomainOrder getDomainOrder() {
-                // we're doing this for testing only, and make sure that we
+                // we're doing this for additions only, and make sure that we
                 // only add data in descending order by x-value
                 return DomainOrder.DESCENDING;
             }

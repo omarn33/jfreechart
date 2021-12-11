@@ -49,7 +49,7 @@ import org.jfree.data.xy.XYSeriesCollection;
 public class RendererXYPackageUtils {
 
     /**
-     * Creates and returns a sample dataset for testing purposes.
+     * Creates and returns a sample dataset for additions purposes.
      *
      * @return A sample dataset.
      */
@@ -67,7 +67,7 @@ public class RendererXYPackageUtils {
     }
 
     /**
-     * Creates and returns a sample dataset for testing purposes.
+     * Creates and returns a sample dataset for additions purposes.
      *
      * @return A sample dataset.
      */

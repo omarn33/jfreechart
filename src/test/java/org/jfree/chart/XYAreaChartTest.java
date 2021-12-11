@@ -134,7 +134,7 @@ public class XYAreaChartTest {
     }
 
     /**
-     * Create a chart for testing.
+     * Create a chart for additions.
      *
      * @return The chart.
      */

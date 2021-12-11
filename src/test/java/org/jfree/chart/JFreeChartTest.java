@@ -188,7 +188,7 @@ public class JFreeChartTest implements ChartChangeListener {
 
     /**
      * A test to make sure that the legend is being picked up in the
-     * equals() testing.
+     * equals() additions.
      */
     @Test
     public void testEquals2() {
