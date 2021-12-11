@@ -25,3 +25,36 @@ public void drawPieChart(Dataset data) {
 
     // Plot the PieChart
 }
+
+/**
+* Tests whether the appropriate dataset produces labels inside or outside the Pie Chart respectively
+*/
+@Test
+public void testLabelInsidePieChart() {
+    // Create two datasets
+    Dataset data = new Dataset();
+    data.add("Soccer", 55);
+    data.add("Hockey", 10);
+    data.add("Football", 25);
+    data.add("Tennis", 10);
+    data.add("Badminton", 5);
+
+    // The labels should all be within the PieChart
+    Dataset data1 = new Dataset();
+    data1.add("Soccer", 55);
+    data1.add("Hockey", 10);
+    data1.add("Football", 25);
+    data1.add("Tennis", 10);
+    data1.add("Badminton", 5);
+
+    // Create two PieCharts
+    Chart piechart = new Chart();
+    Chart piechart1 = new Chart();
+
+    piechart.drawPieChart(data);
+    piechart.drawPieChart(data1);
+
+    // Determine if the labels were correctly placed
+    assertEquals(true, pieChart.drawLabels());
+    assertEquals(false, pieChart1.drawLabels());
+}
